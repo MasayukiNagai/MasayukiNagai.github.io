@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Masayuki Nagai (Moon)"
+title                    : "Masayuki (Moon) Nagai"
 title_separator          : "-"
 name                     : &name "Masayuki Nagai"
 description              : &description "personal description"
@@ -81,10 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Masayuki Nagai"
-  avatar           : "profile_image.jpg"
+  avatar           : "profile_image.png"
   bio              : # "Your biography for the left-hand sidebar"
   location         : # "Location"
-  employer         :
+  employer         : Cold Spring Harbor Laboratory
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : # "http://yourfullgooglescholarurl.com"
   email            : moon.masayukinagai@gmail.com
