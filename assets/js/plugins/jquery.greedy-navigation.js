@@ -11,52 +11,91 @@ var $vlinks = $('#site-nav .visible-links');
 var $vlinks_persist_tail = $vlinks.children("*.persist.tail");
 var $hlinks = $('#site-nav .hidden-links');
 
-var breaks = [];
+var totalMenuWidth = 0;
 
-function updateNav() {
+function getVisibleLinksWidth() {
+  var totalWidth = 0;
 
-  var availableSpace = $btn.hasClass('hidden') ? $nav.width() : $nav.width() - $btn.width() - 30;
+  $vlinks.children().each(function () {
+    totalWidth += $(this).outerWidth(true);
+  });
 
-  // The visible list is overflowing the nav
-  if ($vlinks.width() > availableSpace) {
+  return totalWidth;
+}
 
-    while ($vlinks.width() > availableSpace && $vlinks.children("*:not(.persist)").length > 0) {
-      // Record the width of the list
-      breaks.push($vlinks.width());
+function setToggleState() {
+  var hiddenCount = $hlinks.children().length;
 
-      // Move item to the hidden list
-      $vlinks.children("*:not(.persist)").last().prependTo($hlinks);
+  $btn.attr('count', hiddenCount);
 
-      availableSpace = $btn.hasClass("hidden") ? $nav.width() : $nav.width() - $btn.width() - 30;
-
-      // Show the dropdown btn
-      $btn.removeClass("hidden");
-    }
-
-    // The visible list is not overflowing
+  if (hiddenCount === 0) {
+    $btn.addClass('hidden').removeClass('close');
+    $hlinks.addClass('hidden');
+    $nav.removeClass('is-collapsed');
   } else {
+    $btn.removeClass('hidden');
+  }
+}
 
-    // There is space for another item in the nav
-    while (breaks.length > 0 && availableSpace > breaks[breaks.length - 1]) {
-      // Move the item to the visible list
-      if ($vlinks_persist_tail.children().length > 0) {
-        $hlinks.children().first().insertBefore($vlinks_persist_tail);
-      } else {
-        $hlinks.children().first().appendTo($vlinks);
-      }
-      breaks.pop();
-    }
+function collapseNav() {
+  if ($nav.hasClass('is-collapsed')) {
+    return;
+  }
 
-    // Hide the dropdown btn if hidden list is empty
-    if (breaks.length < 1) {
-      $btn.addClass('hidden');
-      $btn.removeClass('close');
-      $hlinks.addClass('hidden');
+  var $nonPersistItems = $vlinks.children(':not(.persist)');
+
+  if ($nonPersistItems.length === 0) {
+    return;
+  }
+
+  $nonPersistItems.appendTo($hlinks);
+  $nav.addClass('is-collapsed');
+  $hlinks.addClass('hidden');
+  setToggleState();
+}
+
+function expandNav() {
+  if (!$nav.hasClass('is-collapsed')) {
+    return;
+  }
+
+  var $itemsToRestore = $hlinks.children();
+
+  if ($itemsToRestore.length) {
+    if ($vlinks_persist_tail.length) {
+      $itemsToRestore.insertBefore($vlinks_persist_tail);
+    } else {
+      $itemsToRestore.appendTo($vlinks);
     }
   }
 
-  // Keep counter updated
-  $btn.attr("count", breaks.length);
+  $nav.removeClass('is-collapsed');
+  $hlinks.addClass('hidden');
+  $btn.addClass('hidden').removeClass('close');
+  totalMenuWidth = getVisibleLinksWidth();
+  setToggleState();
+}
+
+function updateNav() {
+  var navWidth = $nav.width();
+  var toggleAllowance = $btn.outerWidth(true) + 30;
+  var availableSpace = $btn.hasClass('hidden') ? navWidth : navWidth - toggleAllowance;
+
+  if (!$nav.hasClass('is-collapsed')) {
+    totalMenuWidth = getVisibleLinksWidth();
+
+    if (totalMenuWidth > availableSpace) {
+      collapseNav();
+      navWidth = $nav.width();
+      availableSpace = navWidth - toggleAllowance;
+    }
+  } else if (navWidth - toggleAllowance >= totalMenuWidth) {
+    expandNav();
+    navWidth = $nav.width();
+    availableSpace = $btn.hasClass('hidden') ? navWidth : navWidth - toggleAllowance;
+  }
+
+  setToggleState();
 
   // update masthead height and the body/sidebar top padding
   var mastheadHeight = $('.masthead').height();

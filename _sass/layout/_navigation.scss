@@ -175,7 +175,11 @@
 .greedy-nav {
   position: relative;
   min-width: 250px;
-  background: var(--global-bg-color);
+  background: var(--global-header-bg-color, var(--global-bg-color));
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0.5rem;
 
   a {
     display: block;
@@ -190,9 +194,8 @@
   }
 
   button {
-    position: absolute;
+    order: 2;
     height: 2.5rem;
-    right: 0;
     padding: 0 0.5rem;
     border: 0;
     outline: none;
@@ -203,16 +206,25 @@
   }
 
   .visible-links {
-    display: table;
+    order: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    margin-left: auto;
+    padding-left: 0;
 
     li {
-      display: table-cell;
+      display: inline-flex;
+      align-items: center;
       vertical-align: middle;
+      min-width: 0;
+
+      & + li {
+        margin-left: 0.75rem;
+      }
 
       &:first-child {
-        font-weight: bold;
-        text-wrap: wrap;
-
         a {
           margin-left: 0;
         }

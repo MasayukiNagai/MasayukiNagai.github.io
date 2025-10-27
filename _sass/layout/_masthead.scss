@@ -4,7 +4,7 @@
 
 .masthead {
   position: fixed;
-  background: var(--global-bg-color);
+  background: var(--global-header-bg-color, var(--global-bg-color));
   height: fit-content;
   top: 0;
   width: 100%;
@@ -45,6 +45,15 @@
 }
 
 .masthead__menu {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+
+  nav {
+    flex: 1 1 auto;
+    margin-left: auto;
+    min-width: 0;
+  }
 
   ul {
     margin: 0;
@@ -54,8 +63,22 @@
   }
 }
 
+.masthead__brand {
+  flex: 0 0 auto;
+
+  a {
+    margin: 0;
+    padding: 0.5rem 0;
+    color: var(--global-text-color);
+
+    &:hover {
+      color: var(--global-link-color-hover);
+    }
+  }
+}
+
 .masthead__menu-item {
-  background-color: var(--global-bg-color);
+  background-color: var(--global-header-bg-color, var(--global-bg-color));
   display: block;
   list-style-type: none;
   white-space: nowrap;
