@@ -2,6 +2,7 @@
 title: "Causal Refinement"
 excerpt: "Continual Learning for "
 date: 2025-08-01
+ongoing: true
 collection: projects
 ---
 

@@ -9,56 +9,66 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+-----
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Education
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Cold Spring Harbor Laboratory** <br />
+_Ph.D. in Quantitative Biology, 2023-28 (expeced)_ <br />
+Advisor: Peter Koo <br />
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**DePauw University** <br />
+_B.A. in Computer Science & Biochemistry, 2018-2022_ <br />
+Advisor: Chad Byers & Daniel Gurnon <br />
 
-Publications
+**University of Oxford** <br />
+_Visiting student in Deep Learning & Genomics, 2021_ <br />
+Affiliation: New College <br />
+
+-----
+
+## Work experience
+
+**Riken** <br />
+_Research assistant, 2022-23_ <br />
+Advisor: Itoshi Nikaido <br />
+
+**Effective Altruism Japan** <br />
+_Community organizer & translator, 2022-23_ <br />
+
+**ANPLAT** <br />
+_Bioinformatics Software Developer, 2021-23_ <br />
+
+**Amelieff** <br />
+_Bioinformatics Software Developer, 2021_ <br />
+
+-----
+
+## Skills
+
+* Programming: Python, R, Bash/Shell, Java, C/C++
+* Deep Learning: PyTorch & TensorFlow
+* Computer Environment: Git/GitHub, HPC clusters (UGE & Slurm), uv, conda
+* Bioinformatics: Sequence pipelines ()
+
+<!-- Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* Currently signed in to 43 different slack teams -->
