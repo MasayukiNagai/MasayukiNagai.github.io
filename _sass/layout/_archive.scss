@@ -105,6 +105,16 @@
   .page__meta {
     margin: 0 0 4px;
   }
+
+  border-bottom: 1px solid var(--global-border-color);
+  padding-bottom: 1.5em;
+  margin-bottom: 1.5em;
+
+  &:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
 }
 
 

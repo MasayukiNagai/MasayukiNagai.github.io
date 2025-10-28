@@ -105,6 +105,24 @@
     margin-top: -1.5em;
     padding-left: 1.25rem;
   }
+
+  .news-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: flex;
+      gap: 1.00rem;
+      margin-bottom: 0.75em;
+      align-items: baseline;
+    }
+
+    .news-date {
+      min-width: 5rem;
+      font-weight: 500;
+    }
+  }
 }
 
 .page__hero {

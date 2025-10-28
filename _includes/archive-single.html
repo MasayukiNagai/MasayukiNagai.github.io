@@ -42,8 +42,20 @@
           <p> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
         {% elsif post.collection == 'publications' %}
           <p>Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }} </p>
+        {% elsif post.collection == 'projects' and post.date %}
+          <p class="page__meta">
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %Y" }}</time>
+            {% if post.ongoing %}
+              <span class="project-status project-status--ongoing">
+                &nbsp;&middot;&nbsp;<i class="fa fa-refresh" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].ongoing_label | default: "Ongoing" }}
+              </span>
+            {% endif %}
+          </p>
         {% elsif post.collection == 'projects' %}
-          {% comment %}Projects omit the published date on listing cards{% endcomment %}
+          {% comment %}Projects without a date omit the listing metadata{% endcomment %}
+        {% elsif post.collection == 'posts' and post.date %}
+          <p class="page__meta"><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% elsif post.date %}
          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].date_label | default: "Published:" }}</strong> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
         {% endif %}

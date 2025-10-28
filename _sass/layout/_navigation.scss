@@ -167,6 +167,12 @@
   border-top: 1px solid var(--global-border-color);
 }
 
+.page__meta--minimal + .pagination {
+  margin-top: 1.5em;
+  padding-top: 0;
+  border-top: none;
+}
+
 
 /*
    Priority plus navigation
