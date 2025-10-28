@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: # "Masayuki (Moon) Nagai"
+title: "Masayuki Nagai"
 author_profile: true
 redirect_from:
   - /about/
