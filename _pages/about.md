@@ -26,7 +26,7 @@ Outside of research, I'm passionate about tennis and climbing mountains!
 <ul class="news-list">
   <li>
     <span class="news-date">Aug 2025</span>
-    <span>Gave a talk on causal refinement for genomic deep learning models via Continual Learning at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7019">YouTube</a>).</span>
+    <span>Gave a talk on causal refinement for genomic deep learning models via Continual Learning at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044">YouTube</a>).</span>
   </li>
   <li>
     <span class="news-date">Aug 2024</span>
