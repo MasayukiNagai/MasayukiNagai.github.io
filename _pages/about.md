@@ -9,7 +9,7 @@ redirect_from:
 Computational Biologist, Ph.D. student, Cold Spring Harbor Laboratory, New York
 
 ## About Me
-I'm a third-year Ph.D. student in the [Koo Lab](https://koolab.cshl.edu/) at Cold Spring Harbor Laboratory.
+I'm a third-year Ph.D. student in the [Koo Lab](https://koo-lab.github.io/) at Cold Spring Harbor Laboratory.
 
 My research focuses on developing deep learning methods that improve the generalization and interpretability of biological models, with the goal of advancing our understanding of molecular and cellular mechanisms across genetics, epigenetics, and proteomics. By connecting predictive models with mechanistic insight, I aim to enable more informative characterization of disease processes and support the design of more effective therapeutics. I am also committed to the responsible advancement of biological AI models, with particular attention to biosecurity and AI alignment to mitigate dual-use risks and ensure safe deployment.
 
