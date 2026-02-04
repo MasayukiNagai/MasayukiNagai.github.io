@@ -6,10 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
+Computational Biologist, Ph.D. student, Cold Spring Harbor Laboratory, New York
 
 ## About Me
+I'm a third-year Ph.D. student in the [Koo Lab](https://koolab.cshl.edu/) at Cold Spring Harbor Laboratory.
 
-I'm a third-year Ph.D. student in Computational Biology at the [Koo Lab](https://koolab.cshl.edu/), Cold Spring Harbor Laboratory. My research centers on developing methods to improve and interpret deep learning models in biology, with the goal of advancing our understanding of molecular and cellular mechanisms across genetics, epigenetics, and proteomics. This work aims to deepen our understanding of disease and to inform the design of more effective therapeutics. I'm also deeply committed to the responsible development of these technologies, with a focus on biosecurity and AI alignment to mitigate dual-use risks and ensure their safe application.
+My research focuses on developing deep learning methods that improve the generalization and interpretability of biological models, with the goal of advancing our understanding of molecular and cellular mechanisms across genetics, epigenetics, and proteomics. By connecting predictive models with mechanistic insight, I aim to enable more informative characterization of disease processes and support the design of more effective therapeutics. I am also committed to the responsible advancement of biological AI models, with particular attention to biosecurity and AI alignment to mitigate dual-use risks and ensure safe deployment.
 
 Outside of research, I'm passionate about tennis and climbing mountains!
 
@@ -25,12 +27,16 @@ Outside of research, I'm passionate about tennis and climbing mountains!
 
 <ul class="news-list">
   <li>
+    <span class="news-date">Feb 2026</span>
+    <span>Released our review/perspective <em>Toward Interpretable and Generalizable AI in Regulatory Genomics</em> as a preprint on <a href="https://arxiv.org/abs/2602.01230" target="_blank" rel="noopener noreferrer">arXiv</a> (co-first author). See a quick overview <a href="https://x.com/pkoo562/status/2018703268839375227?s=20" target="_blank" rel="noopener noreferrer">on X</a>. </span>
+  </li>
+  <li>
     <span class="news-date">Aug 2025</span>
-    <span>Gave a talk on causal refinement for genomic deep learning models via Continual Learning at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044">YouTube</a>).</span>
+    <span>Gave a talk on causal refinement for genomic deep learning models via Continual Learning at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044" target="_blank" rel="noopener noreferrer">YouTube</a>).</span>
   </li>
   <li>
     <span class="news-date">Aug 2024</span>
-    <span>Joined <a href="https://koolab.cshl.edu/">Peter Koo's group</a> at Cold Spring Harbor Laboratory.</span>
+    <span>Joined <a href="https://koolab.cshl.edu/" target="_blank" rel="noopener noreferrer">Peter Koo's group</a> at Cold Spring Harbor Laboratory.</span>
   </li>
   <li>
     <span class="news-date">Aug 2023</span>
