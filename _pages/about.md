@@ -36,7 +36,7 @@ Outside of research, I'm passionate about tennis and climbing mountains!
   </li>
   <li>
     <span class="news-date">Aug 2024</span>
-    <span>Joined <a href="https://koolab.cshl.edu/" target="_blank" rel="noopener noreferrer">Peter Koo's group</a> at Cold Spring Harbor Laboratory.</span>
+    <span>Joined <a href="https://koo-lab.github.io/" target="_blank" rel="noopener noreferrer">Peter Koo's group</a> at Cold Spring Harbor Laboratory.</span>
   </li>
   <li>
     <span class="news-date">Aug 2023</span>
