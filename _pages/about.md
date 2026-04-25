@@ -6,10 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Computational Biologist | Ph.D. candidate | Cold Spring Harbor Laboratory, New York
+Computational Biologist \| Ph.D. candidate \| Cold Spring Harbor Laboratory, New York
 
 ## About Me
-I'm a third-year Ph.D. student in [Dr. Peter Koo's Lab](https://koo-lab.github.io/), developing **AI methods for regulatory genomics** to achieve generalization across diverse genetic variation and cellular contexts. My research focuses on designing and integrating causally informative perturbations to bridge wet-lab experimentation and computational modeling, extracting mechanistic biological insights, and characterizing model failure modes, with a key application in programmable regulatory sequence design. I am also committed to the responsible advancement of biological AI models, with a particular attention to biosecurity and AI alignment to mitigate dual-use risks and support safe deployment.
+I'm a third-year Ph.D. student in [Dr. Peter Koo's Lab](https://koo-lab.github.io/), developing **AI methods for regulatory genomics** to achieve generalization across diverse genetic variation and cellular contexts.
+
+My research focuses on designing and integrating causally informative perturbations to bridge wet-lab experimentation and computational modeling, extracting mechanistic biological insights, and characterizing model failure modes, with a key application in programmable regulatory sequence design. I am also committed to the responsible advancement of biological AI models, with a particular attention to biosecurity and AI alignment to mitigate dual-use risks and support safe deployment.
 {: .text-justify}
 
 Outside of research, I'm passionate about tennis and climbing mountains!
