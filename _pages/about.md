@@ -25,19 +25,27 @@ Outside of research, I'm passionate about tennis and climbing mountains!
 ## News
 <ul class="news-list">
   <li>
+    <span class="news-date">Apr 2026</span>
+    <span>Research highlight on AlphaGenome in <a href="https://doi.org/10.1038/s41422-026-01249-1">Cell Research</a> (co-first author). Overview on <a href="https://x.com/msyk_nagai/status/2042271070422474866?s=20">X</a>.</span>
+  </li>
+  <li>
+    <span class="news-date">March 2026</span>
+    <span>Talk on causal refinement for genomic deep learning models via continual learning at CSHL System's Biology.</span>
+  </li>
+  <li>
     <span class="news-date">Feb 2026</span>
-    <span>Released our review/perspective <em>Toward Interpretable and Generalizable AI in Regulatory Genomics</em> as a preprint on <a href="https://arxiv.org/abs/2602.01230" target="_blank" rel="noopener noreferrer">arXiv</a> (co-first author). See a quick overview <a href="https://x.com/pkoo562/status/2018703268839375227?s=20" target="_blank" rel="noopener noreferrer">on X</a>. </span>
+    <span>Review/perspective <em>Toward Interpretable and Generalizable AI in Regulatory Genomics</em>, posted on <a href="https://arxiv.org/abs/2602.01230" target="_blank" rel="noopener noreferrer">arXiv</a> (co-first author). Overview on <a href="https://x.com/pkoo562/status/2018703268839375227?s=20" target="_blank" rel="noopener noreferrer">X</a>. </span>
   </li>
   <li>
     <span class="news-date">Aug 2025</span>
-    <span>Gave a talk on causal refinement for genomic deep learning models via Continual Learning at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044" target="_blank" rel="noopener noreferrer">YouTube</a>).</span>
+    <span>Talk on causal refinement for genomic deep learning models via continual learning at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044" target="_blank" rel="noopener noreferrer">YouTube</a>).</span>
   </li>
   <li>
     <span class="news-date">Aug 2024</span>
-    <span>Joined <a href="https://koo-lab.github.io/" target="_blank" rel="noopener noreferrer">Peter Koo's group</a> at Cold Spring Harbor Laboratory.</span>
+    <span>Joined <a href="https://koo-lab.github.io/" target="_blank" rel="noopener noreferrer">Dr. Peter Koo's group</a>.</span>
   </li>
   <li>
     <span class="news-date">Aug 2023</span>
-    <span>Started Ph.D. in the School of Biological Sciences, Cold Spring Harbor Laboratory. </span>
+    <span>Started Ph.D. at Cold Spring Harbor Laboratory. </span>
   </li>
 </ul>
