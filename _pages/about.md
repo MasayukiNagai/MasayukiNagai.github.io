@@ -28,11 +28,11 @@ Outside of research, I'm passionate about tennis and climbing mountains!
 <ul class="news-list">
   <li>
     <span class="news-date">Apr 2026</span>
-    <span>Research highlight on AlphaGenome in <a href="https://doi.org/10.1038/s41422-026-01249-1">Cell Research</a> (co-first author). Overview on <a href="https://x.com/msyk_nagai/status/2042271070422474866?s=20">X</a>.</span>
+    <span>Research highlight on AlphaGenome in <em><a href="https://doi.org/10.1038/s41422-026-01249-1" target="_blank" rel="noopener noreferrer">Cell Research</a></em> (co-first author). Overview on <a href="https://x.com/msyk_nagai/status/2042271070422474866?s=20" target="_blank" rel="noopener noreferrer">X</a>.</span>
   </li>
   <li>
-    <span class="news-date">March 2026</span>
-    <span>Talk on causal refinement for genomic deep learning models via continual learning at CSHL System's Biology.</span>
+    <span class="news-date">Mar 2026</span>
+    <span>Talk on <em>Improving Genomic Deep Learning models using Continual Learning</em> at the CSHL Systems Biology meeting.</span>
   </li>
   <li>
     <span class="news-date">Feb 2026</span>
@@ -40,11 +40,11 @@ Outside of research, I'm passionate about tennis and climbing mountains!
   </li>
   <li>
     <span class="news-date">Aug 2025</span>
-    <span>Talk on causal refinement for genomic deep learning models via continual learning at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044" target="_blank" rel="noopener noreferrer">YouTube</a>).</span>
+    <span>Talk on causal refinement for genomic deep learning models at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044" target="_blank" rel="noopener noreferrer">YouTube</a>).</span>
   </li>
   <li>
     <span class="news-date">Aug 2024</span>
-    <span>Joined <a href="https://koo-lab.github.io/" target="_blank" rel="noopener noreferrer">Dr. Peter Koo's group</a>.</span>
+    <span>Joined <a href="https://koo-lab.github.io/">Dr. Peter Koo's group</a>.</span>
   </li>
   <li>
     <span class="news-date">Aug 2023</span>
