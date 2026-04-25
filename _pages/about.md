@@ -6,17 +6,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-Computational Biologist, Ph.D. student, Cold Spring Harbor Laboratory, New York
+Computational Biologist, Ph.D. candidate, Cold Spring Harbor Laboratory, New York
 
 ## About Me
 I'm a third-year Ph.D. student in the [Koo Lab](https://koo-lab.github.io/) at Cold Spring Harbor Laboratory.
 
-My research focuses on developing deep learning methods that improve the generalization and interpretability of biological models, with the goal of advancing our understanding of molecular and cellular mechanisms across genetics, epigenetics, and proteomics. By connecting predictive models with mechanistic insight, I aim to enable more informative characterization of disease processes and support the design of more effective therapeutics. I am also committed to the responsible advancement of biological AI models, with particular attention to biosecurity and AI alignment to mitigate dual-use risks and ensure safe deployment.
+I develop **AI methods for regulatory genomics** to achieve generalization across diverse genetic variation and cellular contexts. My research focuses on designing and integrating causally informative perturbations to bridge wet-lab experimentation and computational modeling, extracting mechanistic biological insights, and characterizing model failure modes, with a key application in programmable regulatory sequence design. I am also committed to the responsible advancement of biological AI models, with a particular attention to biosecurity and AI alignment to mitigate dual-use risks and support safe deployment.
 
 Outside of research, I'm passionate about tennis and climbing mountains!
 
 ## Interests
-
 - **Continual Learning**: Refining causal understanding through perturbation data integration
 - **Active Learning**: Identifying the most informative experiments to guide research
 - **Sequence Design**: Engineering sequences with desired functional properties
@@ -24,7 +23,6 @@ Outside of research, I'm passionate about tennis and climbing mountains!
 - **Mechanistic Interpretability**: Understanding the inner workings of deep learning models
 
 ## News
-
 <ul class="news-list">
   <li>
     <span class="news-date">Feb 2026</span>
