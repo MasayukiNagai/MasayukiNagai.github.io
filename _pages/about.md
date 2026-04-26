@@ -11,7 +11,7 @@ Computational Biologist \| Ph.D. candidate \| Cold Spring Harbor Laboratory, New
 ## About Me
 I'm a third-year Ph.D. student in [Dr. Peter Koo's Lab](https://koo-lab.github.io/), developing **AI methods for regulatory genomics** to achieve generalization across diverse genetic variation and cellular contexts.
 
-My research focuses on designing and integrating causally informative perturbations to bridge wet-lab experimentation and computational modeling, extracting mechanistic biological insights, and characterizing model failure modes, with a key application in programmable regulatory sequence design. I am also committed to the responsible advancement of biological AI models, with a particular attention to biosecurity and AI alignment to mitigate dual-use risks and support safe deployment.
+My research focuses on designing and integrating causally informative perturbations to bridge wet-lab experimentation and computational modeling, extracting mechanistic biological insights, and characterizing model failure modes, with a key application in programmable regulatory sequence design. I am also committed to the responsible advancement of biological AI models, with particular attention to biosecurity and AI alignment to mitigate dual-use risks and support safe deployment.
 {: .text-justify}
 
 Outside of research, I'm passionate about tennis and climbing mountains!
@@ -32,7 +32,7 @@ Outside of research, I'm passionate about tennis and climbing mountains!
   </li>
   <li>
     <span class="news-date">Mar 2026</span>
-    <span>Talk on <em>Improving Genomic Deep Learning models using Continual Learning</em> at the CSHL Systems Biology meeting.</span>
+    <span>Talk on <em>Improving Genomic Deep Learning Models using Continual Learning</em> at the CSHL Systems Biology meeting.</span>
   </li>
   <li>
     <span class="news-date">Feb 2026</span>
@@ -40,7 +40,7 @@ Outside of research, I'm passionate about tennis and climbing mountains!
   </li>
   <li>
     <span class="news-date">Aug 2025</span>
-    <span>Talk on causal refinement for genomic deep learning models at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044" target="_blank" rel="noopener noreferrer">YouTube</a>).</span>
+    <span>Talk on <em>Causal Refinement for Genomic Deep Learning Models</em> at MLCB 2025 (<a href="https://www.youtube.com/live/19I7xTh5Qb4?si=deSADd9vZB65yWBC&t=7044" target="_blank" rel="noopener noreferrer">YouTube</a>).</span>
   </li>
   <li>
     <span class="news-date">Aug 2024</span>
