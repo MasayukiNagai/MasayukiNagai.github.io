@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+[Open CV in PDF]({{ base_path }}/files/cv_nagai_2026.pdf){: .btn .btn--primary}
+
 -----
 
 ## Education
